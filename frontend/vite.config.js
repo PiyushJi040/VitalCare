@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/telemedicinee-app/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/VitalCare/' : '/',
   plugins: [tailwindcss()],
   server: {
     host: true,
