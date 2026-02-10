@@ -170,10 +170,31 @@ cd AI_Model
 pip install -r requirement.txt
 ```
 
-**Important:** Place your trained ML models in `AI_Model/ml model/`:
-- `eyediseases_model.keras`
-- `fracture_classification_model.keras`
-- `skin_disease_classifier.keras`
+**Important: Download ML Models**
+
+The trained ML models are too large for GitHub. Download them separately:
+
+1. **Eye Disease Model** (136 MB)
+   - Download: [eyediseases_model.zip](https://github.com/PiyushJi040/VitalCare/releases)
+   - Extract to: `AI_Model/ml model/eyediseases_model.keras`
+
+2. **Fracture Classification Model** (79 MB)
+   - Download: [fracture_model.zip](https://github.com/PiyushJi040/VitalCare/releases)
+   - Extract to: `AI_Model/ml model/fracture_classification_model.keras`
+
+3. **Skin Disease Classifier** (284 MB)
+   - Download: [skin_disease_model.zip](https://github.com/PiyushJi040/VitalCare/releases)
+   - Extract to: `AI_Model/ml model/skin_disease_classifier.keras`
+
+**Quick Setup:**
+```bash
+# After downloading the zip files:
+# 1. Extract all three .keras files
+# 2. Place them in AI_Model/ml model/ directory
+# 3. Verify files are present:
+dir "AI_Model\ml model"  # Windows
+ls AI_Model/ml\ model/   # Linux/Mac
+```
 
 ---
 
