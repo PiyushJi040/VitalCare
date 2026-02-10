@@ -1,0 +1,57 @@
+MIT License
+
+Copyright (c) 2024 MediConnect AI - Telemedicine Platform
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR MEDICAL SOFTWARE:
+
+This software is intended for educational and demonstration purposes. 
+Any use in production medical environments must comply with:
+
+1. HIPAA (Health Insurance Portability and Accountability Act) regulations
+2. Local healthcare data protection laws
+3. Medical device regulations in your jurisdiction
+4. Professional medical licensing requirements
+
+The developers and contributors of this software:
+- Do NOT provide medical advice
+- Are NOT responsible for medical decisions made using this software
+- Recommend professional medical consultation for all health concerns
+- Disclaim liability for any medical outcomes
+
+AI/ML models included are for demonstration purposes and should be:
+- Validated by medical professionals before clinical use
+- Regularly updated and retrained with appropriate datasets
+- Used only as decision support tools, not primary diagnostic tools
+- Supervised by qualified healthcare professionals
+
+By using this software, you acknowledge that:
+- You understand the limitations of AI in healthcare
+- You will not use this as a substitute for professional medical advice
+- You accept full responsibility for any implementation decisions
+- You will comply with all applicable healthcare regulations
+
+For production medical use, please consult with:
+- Healthcare legal counsel
+- Medical device regulatory experts
+- Clinical validation specialists
+- Healthcare IT security professionals
