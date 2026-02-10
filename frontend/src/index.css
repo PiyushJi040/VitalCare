@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+html,
+body,
+#root {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	@apply bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white;
+	font-family: 'Inter', sans-serif;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--color-neon-cyan: #00f0ff;
+	--color-neon-purple: #a855f7;
+	--color-neon-pink: #ec4899;
+	--color-dark-bg: #0f172a;
+	--color-dark-card: #1e293b;
+}
+
+.glass-effect {
+	@apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.neon-glow {
+	box-shadow: 0 0 20px rgba(0, 240, 255, 0.3), 0 0 40px rgba(168, 85, 247, 0.2);
+}
+
+.gradient-text {
+	@apply bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+}
+
+.card-hover {
+	@apply transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20;
+}
+
+.space-font {
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-purple-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-purple-500;
+}
