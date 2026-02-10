@@ -21,7 +21,7 @@ if ('serviceWorker' in navigator && import.meta.env.PROD) {
 }
 
 createRoot(document.getElementById("root")).render(
-	<BrowserRouter>
+	<BrowserRouter basename={import.meta.env.PROD ? '/VitalCare' : '/'}>
 		<Toaster position="top-right" reverseOrder={false} />
 		<App />
 	</BrowserRouter>
